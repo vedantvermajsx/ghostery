@@ -1,6 +1,6 @@
 document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey =b402078b6c7440a6a78b64cb8131697a;
 
 const last30=`https://rawg.io/discover/last-30-days=${apiKey}`
 const baseUrl = `https://api.rawg.io/api/games?key=${apiKey}`;
