@@ -170,7 +170,7 @@ function populateGames(games) {
     const ratingSpan = document.createElement("span");
     ratingSpan.innerHTML = `Rating: ${(game.rating || 0).toFixed(
       1
-    )} <img src="../assests/star.svg"  alt="Star" class="star-icon">`;
+    )} <img src="./star.svg"  alt="Star" class="star-icon">`;
 
     const genreSpan = document.createElement("span");
     genreSpan.textContent = `Genre: ${game.genres
