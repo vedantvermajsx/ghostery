@@ -1,4 +1,4 @@
-   import { getGameDetails, getGameScreenshots } from './index-CYDz2EnO';
+   import { getGameDetails, getGameScreenshots } from './index-CYDz2EnO.js';
 
         const urlParams = new URLSearchParams(window.location.search);
         const gameId = urlParams.get('id');
